@@ -7,3 +7,55 @@
   width: 100vw;
   background-color: hsl(180, 29%, 50%);
 }
+
+.mainDiv {
+  display: flex;
+  width: 80vw;
+  margin: 30px auto;
+  justify-content: space-between;
+  padding: 1em;
+  box-shadow: 1px 1px 10px #ccc;
+  border-radius: 10px;
+}
+
+
+.groupOne {
+  display: flex;
+  justify-content: space-evenly;
+  width: 35vw;
+}
+
+.groupTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.groupThree {
+  display: flex;
+}
+
+.skills{
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+    width: 30vw;
+}
+
+.language{
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    width: 15vw;
+}
+
+
+
+.skills div {
+    margin: 0 5px;
+    background-color: hsl(180, 89%, 93%);
+    border-radius: 3px;
+    padding: 0px 5px;
+    color: hsl(180, 29%, 42%);
+}
