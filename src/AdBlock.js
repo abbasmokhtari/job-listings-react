@@ -10,12 +10,12 @@ function AdBlock(props) {
               <img src={e.logo} />
               <div className='groupTwo'>
                 <div className='groupThree'>
-                  <div>{e.company}</div>
-                  <div>{e.new && 'NEW'}</div>
-                  <div>{e.featured && 'FEATURED'}</div>
+                  <div className='company'>{e.company}</div>
+                  <div className={e.new && 'new'}>{e.new && 'NEW'}</div>
+                  <div className={e.featured && 'featured'}>{e.featured && 'FEATURED'}</div>
                 </div>
                 <p>{e.position}</p>
-                <p>
+                <p className='pcl'>
                   {e.postedAt} - {e.contract} - {e.location}
                 </p>
               </div>

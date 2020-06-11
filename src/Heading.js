@@ -1,5 +1,5 @@
 import React from 'react'
-import header from './images/bg-header-desktop.svg'
+import header from './bg-header-desktop.svg'
 
 function Heading() {
     return (

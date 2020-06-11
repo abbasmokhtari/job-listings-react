@@ -1,9 +1,11 @@
-.App {
-  text-align: center;
-  background-color: hsl(180, 52%, 96%);
-}
 body {
   margin: 0;
+  background-color: hsl(180, 52%, 96%);
+  font-family: 'spartan';
+}
+
+.App {
+  text-align: center;
   background-color: hsl(180, 52%, 96%);
 }
 
@@ -22,7 +24,6 @@ body {
   border-radius: 10px;
 }
 
-
 .groupOne {
   display: flex;
   justify-content: space-evenly;
@@ -33,36 +34,62 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
+  align-items: flex-start;
 }
 
 .groupThree {
   display: flex;
 }
 
-.skills{
-    display: flex;
-    align-self: center;
-    justify-content: flex-end;
-    width: 30vw;
+.skills {
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+  width: 30vw;
 }
 
-.language{
-    display: flex;
-    align-self: center;
-    justify-content: space-evenly;
-    width: 15vw;
+.language {
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly;
+  width: 15vw;
 }
 
 p {
   margin: 0;
 }
 
+.skills p {
+  margin: 0 5px;
+  background-color: hsl(180, 89%, 93%);
+  border-radius: 3px;
+  padding: 0px 5px;
+  color: hsl(180, 29%, 42%);
+}
 
-.skills div {
-    margin: 0 5px;
-    background-color: hsl(180, 89%, 93%);
-    border-radius: 3px;
-    padding: 0px 5px;
-    color: hsl(180, 29%, 42%);
+.company {
+  color: hsl(180, 29%, 40%);
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.new {
+  background-color: hsl(180, 29%, 50%);
+  color: hsl(180, 52%, 96%);
+  border-radius: 10px;
+  padding: 3px;
+  font-size: 11px;
+}
+
+.featured {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(180, 52%, 96%);
+  border-radius: 10px;
+  padding: 3px;
+  font-size: 11px;
+  margin-left: 10px;
+}
+
+.pcl {
+  color: hsl(180, 0%, 51%);
 }
