@@ -23,7 +23,9 @@ function AdBlock(props) {
             <div className='skills'>
               <p>{e.role}</p>
               <p>{e.level}</p>
-              <p>{e.languages}</p>
+              {e.languages.map((language, i)=> {
+                return(<p key={i}>{language}</p>) 
+              })}
             </div>
           </div>
         );

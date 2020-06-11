@@ -65,6 +65,7 @@ p {
   border-radius: 3px;
   padding: 0px 5px;
   color: hsl(180, 29%, 42%);
+  font-size: 13px;
 }
 
 .company {
